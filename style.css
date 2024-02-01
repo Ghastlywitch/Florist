@@ -2,7 +2,6 @@
 
 body {
     background-color: #4D693A;
-    
 }
 
 /*should do something with margins... for fun*/
@@ -201,6 +200,7 @@ table {
   background-color: #c4beb5;
   font-size: 40px;
   width: 50%;
+  margin: 10px;
 }
 
 
@@ -212,5 +212,22 @@ table {
   text-align: left;
   background-color:#c1730e;
   color: #2f332d;
+  outline-style:solid ;
 }
 
+ul.events {
+  margin: 10px;
+  padding: 10px;
+  list-style-position: inside;
+  list-style-type: circle;
+  background-color: #c4beb5; 
+  width: 50%;
+  outline-style: solid;
+}
+
+li.events {
+  display: block;
+  color: black;
+  font-size: 40px;
+ 
+}
