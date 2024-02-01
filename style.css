@@ -1,0 +1,117 @@
+body {
+    background-color: #4D693A;
+    
+}
+
+/*should do something with margins... for fun*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /*color?*/
+
+h1 {
+    display:flex;
+    justify-content: center;
+    font-size: 100px;
+    
+    color: #2f332d;
+}
+
+
+/*is this colour standing out enough/ text large enough? */
+p {
+    text-align: center;
+    white-space: nowrap;
+    color:#FFFFFF;
+    word-wrap: break-word;
+    font-size: 25px;
+    background-color: #2f332d;
+}
+
+.topnav {
+    background-color: #2f332d;
+    overflow: hidden;
+}
+
+/* the links are the wrong way round? send halp*/
+
+.topnav a {
+    float:right;
+    text-align: center;
+    font-size: 50px;
+    color: #fffdfa;
+    padding: 14px 16px;
+}
+
+.topnav a:hover {
+    background-color:#c1730e; 
+    color: #fffdfa;
+  }
+
+.topnav a.split {
+    float: left;
+  }
+
+.outdoor {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+      width: 33.33%;
+      padding: 14px 16px;
+}
+
+a:link {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2f332d;
+    font-size: 50px;
+} 
+
+#navbar a:hover {
+    background-color:#c1730e; 
+    color: #fffdfa;
+  }
+
+li {
+    display: inline;
+  }
+
+/*bouquets page*/
+
+.all{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding: 30x 30px;
+   
+ }
+
+ .desc {
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:#fffdfa;
+        font-size: 25px;
+        background-color: #2f332d;
+     
+ }
+
+ /* visited link */
+a:visited {
+    color: #c1730e;
+  }
+
+  /* mouse over link */
+a:hover {
+    color: #c4beb5;
+  }
