@@ -140,6 +140,15 @@ p {
   p { font-size: 1.25rem; }
 }
 
+
+@media (max-width: 550px) {
+  q { font-size: 1em; }
+}
+
+@media (min-width: 551px) {
+  q { font-size: 1.25rem; }
+}
+
 @media screen and (max-width: 600px) {
   .middle {
     width: 100%;
