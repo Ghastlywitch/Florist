@@ -128,7 +128,8 @@ p {
   font-size: 40px;
   background-color: #2f332d;
   max-width: 100%;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
