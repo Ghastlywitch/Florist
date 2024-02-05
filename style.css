@@ -2,15 +2,9 @@
 
 body {
     background-color: #c4beb5;
-    position: relative;
-    overflow-x: hidden;
-    min-height: 50em;
-    min-width: 320px;
-    width: 100%;
+  
 
 }
-
-/*should do something with margins... for fun*/
 
 img {
   width: 100%;
@@ -32,7 +26,7 @@ img {
     overflow: hidden;
 }
 
-/* the links are the wrong way round? send halp*/
+
 
 .topnav a {
     float:right;
