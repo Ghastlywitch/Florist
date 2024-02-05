@@ -118,6 +118,18 @@ h2 {
   color: #2f332d;
 }
 
+@media screen and (min-width: 601px) {
+  p {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 30px;
+  }
+}
+
 /*is this colour standing out enough/ text large enough? dyslexia query font, screen-reader */
 p {
   text-align: center;
