@@ -158,13 +158,11 @@ p {
 q {
   text-align: center;
   white-space: nowrap;
-  color:#FFFFFF;
+  color: #FFFFFF;
   word-wrap: break-word;
-  font-size: 25px;
+  font-size: 40px;
   background-color: #2f332d;
   max-width: 100%;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 
