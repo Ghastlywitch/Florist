@@ -22,11 +22,6 @@ img {
     box-sizing: border-box;
   }
   
-  @media screen and (min-width: 961px) {
-  * {
-      box-sizing: border-box;
-  }
-  }
   
   /*link stuff*/
 
