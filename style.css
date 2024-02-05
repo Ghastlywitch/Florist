@@ -122,7 +122,7 @@ h2 {
 /*is this colour standing out enough/ text large enough? dyslexia query font, screen-reader */
 p {
   text-align: center;
-  white-space: nowrap;
+  white-space:inherit;
   color: #FFFFFF;
   word-wrap: break-word;
   font-size: 40px;
@@ -160,7 +160,7 @@ q {
   white-space: nowrap;
   color: #FFFFFF;
   word-wrap: break-word;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #2f332d;
   max-width: 100%;
 }
